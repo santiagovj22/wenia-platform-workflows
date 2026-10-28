@@ -2,7 +2,7 @@
 # AD-8: separate from CI; publishes the image to GHCR, then deploys only
 # when the repository variable DEPLOY_ENABLED=true.
 #
-# Callers pin this with @v1:
+# Callers pins this with @v1:
 #   uses: <owner>/wenia-platform-workflows/.github/workflows/cd.yml@v1
 
 name: Reusable CD
